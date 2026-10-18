@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Một giao diện sáng cố định, để demo và video giống nhau trên mọi máy */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Thẻ Kanban vừa xuất hiện hoặc vừa đổi cột */
+@keyframes flash {
+  0%, 100% { box-shadow: 0 0 0 0 rgb(99 102 241 / 0); }
+  30% { box-shadow: 0 0 0 4px rgb(99 102 241 / 0.45); }
+}
+.animate-flash { animation: flash 1.2s ease-out 2; }

@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+!.env.emulator
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local dev
+/.local-storage/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# internal documents – kept in ../omniops-internal, never on GitHub
+/docs/master_plan.md
+/docs/progress.md
+/docs/HUONG_DAN_TRIEN_KHAI.md
+/docs/SUBMISSION_PLAN.md
+/docs/VIDEO_SCRIPT.md
+/docs/deck/
+key.txt
+*-service-account*.json

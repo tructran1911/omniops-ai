@@ -1,0 +1,3346 @@
+{
+ "05adaecbc78b6562b3fd2bba3ba3af6bcee262472329914adb1c32e4ec8fa9fe": {
+  "docType": "contract",
+  "package": "pkg01",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "a6c73d93f3079e9c616065107bf61571a27f481f865eb134ea85622c93a9ec2a": {
+  "docType": "acceptance",
+  "package": "pkg01",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "e567ccf624de6f0b7529fe7a28a4042b90b0cb6f1e02c2447873ea7d39cc9457": {
+  "docType": "invoice",
+  "package": "pkg01",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "2b490f6ee5114b00953320bffb218cd87d2a9a911009925feba48c6477ecced8": {
+  "docType": "contract",
+  "package": "pkg02",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "dbceab18b0310b12b1721608a019b6edefb85776f36c3f5fccb0b33cbbd22474": {
+  "docType": "acceptance",
+  "package": "pkg02",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "3ae21cbd85a149bd2dcc1905700df2e1a398a429a27ab3403d2a71175da446d2": {
+  "docType": "invoice",
+  "package": "pkg02",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "2b18f1efeb19ec730525c924be43cf0c99822ceb1b902d3f825d41bfbe112233": {
+  "docType": "contract",
+  "package": "pkg03",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "f587a7c2fca378db045e96d523c49564cfd341fdaf9f19acf4960120baaf5009": {
+  "docType": "acceptance",
+  "package": "pkg03",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "9bf0ac4935392382b03c21c54345a421e73da4371e2ef1c201370c6127c95bc1": {
+  "docType": "invoice",
+  "package": "pkg03",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "88786a2f45672fffc56da16a79edd7ce2c8af2083c66d4f36f64b1deff40f40d": {
+  "docType": "contract",
+  "package": "pkg04",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "4eb545d639c675580257732f11658fe11b4ab2a54a508ec146d1192a6fbc78c8": {
+  "docType": "acceptance",
+  "package": "pkg04",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "719ecc12b43775fd135612c247b521a52b1c58cf4e8522e17921f9d519553321": {
+  "docType": "invoice",
+  "package": "pkg04",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "c5c25038e94d76370fa842632cb86f9a2de4d87c0eaa900da07ceebdf442ee2c": {
+  "docType": "contract",
+  "package": "pkg05",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "c69ef66be3d4bfc09ca7047076464e06d4a76baf0d05b8bee3fa7623860d4743": {
+  "docType": "acceptance",
+  "package": "pkg05",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "8916d315be7be3a49a068f7c8d6fe3c88d901df3a92b881ead09d349299f7c49": {
+  "docType": "invoice",
+  "package": "pkg05",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "19aef03076565b24676160ed10f1bfb2ef2fcc455239c3fd9d6f25bb7d8488f3": {
+  "docType": "contract",
+  "package": "pkg06",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "cf0e8044d323d9f0e053f0d85e412a9eeff72204ca7d0eb426931dda02b7a3ad": {
+  "docType": "acceptance",
+  "package": "pkg06",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "be224ecb4ad10f9004c25bfea28fee7a78ec406e17d9d65ff3f2b75ab8099d78": {
+  "docType": "invoice",
+  "package": "pkg06",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "7641a198aa55a1de59cb290f4b6b4f77e907a7e1319fae786864ca09733d1fdf": {
+  "docType": "contract",
+  "package": "pkg07",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "42aa3558058efb0cc7cbd762ccc4a9f288b4c520a0e55de8078cfbe5a1be409d": {
+  "docType": "acceptance",
+  "package": "pkg07",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "a764be33b1bdebf4d07180fd887bbe0b03c1644fb2eef8e9e54756809a8f97c4": {
+  "docType": "invoice",
+  "package": "pkg07",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "5ea16c0efa69ffcc2e349bba71b94728ee24be654df9433f86601d0b3167b2f7": {
+  "docType": "contract",
+  "package": "pkg08",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "232e50a08a81fbf81c8c19902fceacdc615722e02efa31960aea0f3ff43c9ffb": {
+  "docType": "acceptance",
+  "package": "pkg08",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "d484a3ead9fdf7b636d89da80ed344d862cefd2408609ff605e4ce2f6df3c58f": {
+  "docType": "invoice",
+  "package": "pkg08",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "b5c27087e862f34596f4c0a75c919d788410565d14cc72a23fd7f65caaef5e22": {
+  "docType": "contract",
+  "package": "pkg09",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "153def470398b151e84931e1e18c2d9a61e78e8af948a900edc91676d3f56c64": {
+  "docType": "acceptance",
+  "package": "pkg09",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "ddcf51ad636781393f2f38fcf6dd4d6075bde1ff8e28adee3a1410a53cd7805e": {
+  "docType": "invoice",
+  "package": "pkg09",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345679"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345679"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "5cd06207396e44cdf20d5592b266c7f4e8875c3eaeebdeae5b365ad6e7727c36": {
+  "docType": "contract",
+  "package": "pkg10",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "4f5f1cf462434cd139eee0b614c9e141979539a67f3a15051c3fe4a953c5c50d": {
+  "docType": "acceptance",
+  "package": "pkg10",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "f15df3b6cd896e43aa04471be902d3509eabfd5175f58314cddf7974caa0440a": {
+  "docType": "invoice",
+  "package": "pkg10",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 203000000,
+     "amount": 1015000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1165000000,
+   "vatRate": 10,
+   "vatAmount": 116500000,
+   "total": 1281500000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 203.000.000đ | Thành tiền: 1.015.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 116.500.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.281.500.000đ"
+    }
+   ]
+  }
+ },
+ "dfab63716658aef7ed5900532224c595bda241574894dd62e741df846c493dc4": {
+  "docType": "contract",
+  "package": "pkg11",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "d6ec3eac63720d4c5942732fd0c6eb44e41cdd848f9e8d754f5b973c26d83d8e": {
+  "docType": "acceptance",
+  "package": "pkg11",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "903f4bd4480a7721701f28891c64f1e04aec9b0d3bf484dfa0492352d311de05": {
+  "docType": "invoice",
+  "package": "pkg11",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 125000000,
+   "total": 1275000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 125.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.275.000.000đ"
+    }
+   ]
+  }
+ },
+ "d67ff3c8719dd5a5ff574d7554eca77a0ad3d05812cfc8fb34eef3044ebaf182": {
+  "docType": "contract",
+  "package": "pkg12",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "93e0fdc4745cac6deb337109402f9ed0a97f17c89dd7be347f97c438db8e2428": {
+  "docType": "acceptance",
+  "package": "pkg12",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "a4bd320ea888f358136259f2f6e5db733ab95d0e720de4e4eca1b49d630fbecf": {
+  "docType": "invoice",
+  "package": "pkg12",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 6,
+     "unitPrice": 200000000,
+     "amount": 1200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1350000000,
+   "vatRate": 10,
+   "vatAmount": 135000000,
+   "total": 1485000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 6 | Đơn giá: 200.000.000đ | Thành tiền: 1.200.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 135.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.485.000.000đ"
+    }
+   ]
+  }
+ },
+ "3485cc4adce32f6b63c9e1bf40cab2d293780f1aa9ac58caa00ff8d7d3778972": {
+  "docType": "contract",
+  "package": "pkg13",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "3a97d938f330743be2b2aa392ab60a5969d117def36d4973fea36f9cd00c9ce2": {
+  "docType": "acceptance",
+  "package": "pkg13",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "691db6b6e941ac8b4e1d4300ae2f7a3a60f9dfd3ff481dbfb076fbd32cedf8c4": {
+  "docType": "invoice",
+  "package": "pkg13",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-01"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "61752a127e86fe61e9dda7c11721eee88fe5c5c92205d649c1f842b090ec6ce9": {
+  "docType": "contract",
+  "package": "pkg14",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "0ab0a84c6f4189ca0d75747f7c2640f37b4ad67d197b2760bf2f3927b359adcd": {
+  "docType": "acceptance",
+  "package": "pkg14",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "0e6236f371661db581b00ff36f66cbb9ea8a508f3c13c6ff80d22007b40fb6b4": {
+  "docType": "invoice",
+  "package": "pkg14",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "a917b8c867af1813d86d45548989e3ad7b9b16b5b363d69607438dd52c8b92e7": {
+  "docType": "contract",
+  "package": "pkg15",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.3,
+   "riskyClauses": [
+    {
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,3%/ngày trên số tiền chậm trả.",
+     "reason": "Unusually high late-payment penalty for the buyer"
+    }
+   ],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,3%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "69eeb45a131618ae7a3c23ec28d7687ff9d47b7182707a444bad12871bfdc1b9": {
+  "docType": "acceptance",
+  "package": "pkg15",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "d167702b3ba16977dae1a070bc7efa4ed5b8692b6b3afaed1be8352868b82775": {
+  "docType": "invoice",
+  "package": "pkg15",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "3113fdbc0eb166134fb55df4e2e55cab5c23bfde1875d797d82c49ac22fa9058": {
+  "docType": "contract",
+  "package": "pkg16",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 50,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [
+    {
+     "page": 3,
+     "quote": "Bên mua tạm ứng 50% giá trị hợp đồng.",
+     "reason": "Large advance payment: the buyer carries the risk if the seller fails to deliver"
+    }
+   ],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 50% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "a3a2aedd139404d0b6a8aae0151f836f13496a45e80ba448d26c7d2662a10876": {
+  "docType": "acceptance",
+  "package": "pkg16",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "dfcac1fb50049acf3ad829e33606d2a12b5034df1edf40a544c4be2a48b81149": {
+  "docType": "invoice",
+  "package": "pkg16",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "6c226a0db4f94d3a235580bf50219d5590f24355df56d45d0acb20222791db1b": {
+  "docType": "contract",
+  "package": "pkg17",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.3,
+   "riskyClauses": [
+    {
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,3%/ngày trên số tiền chậm trả.",
+     "reason": "Unusually high late-payment penalty for the buyer"
+    }
+   ],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,3%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "778d8fb8055559a98e33d65a85a24615de7457e31653680ba03e1ccb584de004": {
+  "docType": "acceptance",
+  "package": "pkg17",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "ea9a2861956f0fb6707eb037e8389283a5849a91a0e2d873f044299bf98f2e66": {
+  "docType": "invoice",
+  "package": "pkg17",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 203000000,
+     "amount": 1015000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1165000000,
+   "vatRate": 10,
+   "vatAmount": 116500000,
+   "total": 1281500000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 203.000.000đ | Thành tiền: 1.015.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 116.500.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.281.500.000đ"
+    }
+   ]
+  }
+ },
+ "1d806e2d94735c406a51992dd03256732b6b778dfa35993dca326b75b83fd41d": {
+  "docType": "contract",
+  "package": "pkg18",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "2f44a623adb4099909290878d9c6b1f42a4d3f10cbf3ce2bdc4c5dfbdd58f5b9": {
+  "docType": "acceptance",
+  "package": "pkg18",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "8a90c7225c91b289db085b281df1c7c66559601ebe2a5c7c3ef05338f420b9af": {
+  "docType": "invoice",
+  "package": "pkg18",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345679"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 115000000,
+   "total": 1265000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-01"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345679"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 115.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.265.000.000đ"
+    }
+   ]
+  }
+ },
+ "77c8de6e16dfdeb3468dfef37b6f922f69db822712e9055db316131df2bb2ae6": {
+  "docType": "contract",
+  "package": "pkg19",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 50,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [
+    {
+     "page": 3,
+     "quote": "Bên mua tạm ứng 50% giá trị hợp đồng.",
+     "reason": "Large advance payment: the buyer carries the risk if the seller fails to deliver"
+    }
+   ],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 50% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "10cf26385a37e6cf60fa7925310efdd049afc0d00c47a07def9e44d50fa76f5b": {
+  "docType": "acceptance",
+  "package": "pkg19",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "a149c971db9d5e77601847411c1e41cc5e98d415427bd72c20350efdaa4b46ca": {
+  "docType": "invoice",
+  "package": "pkg19",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 6,
+     "unitPrice": 200000000,
+     "amount": 1200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1350000000,
+   "vatRate": 10,
+   "vatAmount": 135000000,
+   "total": 1485000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 6 | Đơn giá: 200.000.000đ | Thành tiền: 1.200.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 135.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.485.000.000đ"
+    }
+   ]
+  }
+ },
+ "a2e4042e630093e2a9b10f752a508c472901ff781926e3a5f795a415884dd2c7": {
+  "docType": "contract",
+  "package": "pkg20",
+  "data": {
+   "contractNo": "01/2026/HĐMB",
+   "signDate": "2026-09-01",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "total": 1265000000,
+   "advancePaymentPercent": 20,
+   "paymentTermDays": 30,
+   "latePenaltyPercentPerDay": 0.05,
+   "riskyClauses": [],
+   "evidence": [
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "BÊN BÁN: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 2,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 2,
+     "quote": "Tổng giá trị hợp đồng: 1.265.000.000đ"
+    },
+    {
+     "field": "advancePaymentPercent",
+     "page": 3,
+     "quote": "Bên mua tạm ứng 20% giá trị hợp đồng."
+    },
+    {
+     "field": "paymentTermDays",
+     "page": 3,
+     "quote": "Phần còn lại thanh toán trong 30 ngày kể từ ngày nghiệm thu."
+    },
+    {
+     "field": "latePenaltyPercentPerDay",
+     "page": 3,
+     "quote": "Chậm thanh toán: bên mua chịu phạt 0,05%/ngày trên số tiền chậm trả."
+    }
+   ]
+  }
+ },
+ "5861bd55777e459c8cd4ee25acf6f16329ebd7c2758a14ed350091edea766ab9": {
+  "docType": "acceptance",
+  "package": "pkg20",
+  "data": {
+   "acceptanceNo": "NT-01/2026",
+   "contractNo": "01/2026/HĐMB",
+   "acceptanceDate": "2026-10-05",
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantityAccepted": 5
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantityAccepted": 5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "acceptanceDate",
+     "page": 1,
+     "quote": "Ngày nghiệm thu: 2026-10-05"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL nghiệm thu: 5"
+    }
+   ]
+  }
+ },
+ "7b1125772e8f6f0b512f7866576b5ddc62f06fdecccf8b788805f8b390fbcd44": {
+  "docType": "invoice",
+  "package": "pkg20",
+  "data": {
+   "invoiceNo": "0000123",
+   "series": "1C26TAP",
+   "issueDate": "2026-10-08",
+   "seller": {
+    "name": "Công ty TNHH Giải pháp Máy chủ An Phát",
+    "taxId": "0312345678"
+   },
+   "buyer": {
+    "name": "Công ty CP Thương mại Minh Long",
+    "taxId": "0109876543"
+   },
+   "items": [
+    {
+     "code": "SV-01",
+     "description": "Máy chủ Dell PowerEdge",
+     "quantity": 5,
+     "unitPrice": 200000000,
+     "amount": 1000000000
+    },
+    {
+     "code": "SW-01",
+     "description": "Bản quyền phần mềm ảo hóa",
+     "quantity": 5,
+     "unitPrice": 30000000,
+     "amount": 150000000
+    }
+   ],
+   "subtotal": 1150000000,
+   "vatRate": 10,
+   "vatAmount": 125000000,
+   "total": 1275000000,
+   "evidence": [
+    {
+     "field": "issueDate",
+     "page": 1,
+     "quote": "Ngày lập: 2026-10-08"
+    },
+    {
+     "field": "seller.taxId",
+     "page": 1,
+     "quote": "Đơn vị bán: Công ty TNHH Giải pháp Máy chủ An Phát - MST: 0312345678"
+    },
+    {
+     "field": "items",
+     "page": 1,
+     "quote": "SV-01 | Máy chủ Dell PowerEdge | SL: 5 | Đơn giá: 200.000.000đ | Thành tiền: 1.000.000.000đ"
+    },
+    {
+     "field": "vatAmount",
+     "page": 1,
+     "quote": "Thuế suất GTGT: 10%  Tiền thuế: 125.000.000đ"
+    },
+    {
+     "field": "total",
+     "page": 1,
+     "quote": "Tổng cộng thanh toán: 1.275.000.000đ"
+    }
+   ]
+  }
+ }
+}

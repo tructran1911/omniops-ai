@@ -1,0 +1,12 @@
+node_modules
+.next
+.env*
+.git
+benchmark
+docs
+scripts
+*.tsbuildinfo
+.local-storage
+firebase.json
+firestore.*
+*.log

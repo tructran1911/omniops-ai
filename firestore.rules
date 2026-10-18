@@ -1,0 +1,36 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function role() { return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role; }
+    function isManager() { return signedIn() && role() == 'manager'; }
+
+    // User profiles: a user may create and edit only their own profile.
+    // Demo build: users pick their own role (demo mode). Production: roles are assigned by an admin (custom claims).
+    // The rate-limit counter (usage) can never be edited by the client — only the server writes it.
+    match /users/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid
+        && request.resource.data.role in ['staff', 'manager']
+        && !('usage' in request.resource.data);
+      allow update: if signedIn() && request.auth.uid == uid
+        && request.resource.data.role in ['staff', 'manager']
+        && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['usage']);
+    }
+
+    // Packages: readable by the owner or a manager; writable only by the server (Admin SDK).
+    match /packages/{pkgId} {
+      allow read: if isManager() || (signedIn() && resource.data.ownerUid == request.auth.uid);
+      allow write: if false;
+      match /{sub=**} {
+        allow read: if isManager() || (signedIn()
+          && get(/databases/$(database)/documents/packages/$(pkgId)).data.ownerUid == request.auth.uid);
+        allow write: if false;
+      }
+    }
+
+    match /policy_rules/{id} { allow read: if signedIn(); allow write: if false; }
+    match /audit_log/{id} { allow read: if isManager(); allow write: if false; }
+    match /extraction_cache/{id} { allow read, write: if false; }
+  }
+}

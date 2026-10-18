@@ -1,0 +1,49 @@
+{
+  "name": "omniops-ai",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "gen:samples": "python scripts/gen_packages.py demo",
+    "gen:bench": "python scripts/gen_packages.py bench",
+    "seed": "tsx --conditions=react-server --env-file-if-exists=.env.local scripts/seed.ts",
+    "benchmark": "tsx --conditions=react-server --env-file-if-exists=.env.local scripts/benchmark.ts",
+    "test:match": "tsx --conditions=react-server scripts/test-match.ts",
+    "try:pipeline": "tsx --conditions=react-server --env-file-if-exists=.env.local scripts/try-pipeline.ts",
+    "emulators": "npx -y firebase-tools@latest emulators:start --only auth,firestore --project demo-omniops",
+    "dev:local": "node scripts/dev-local.mjs",
+    "seed:local": "tsx --conditions=react-server --env-file=.env.emulator scripts/seed.ts",
+    "smoke:local": "tsx --conditions=react-server --env-file=.env.emulator scripts/smoke-local.ts"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^8.4.0",
+    "@google/genai": "^2.30.0",
+    "fast-xml-parser": "^5.11.2",
+    "firebase": "^13.0.0",
+    "firebase-admin": "^14.5.0",
+    "lucide-react": "^1.57.0",
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
