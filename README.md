@@ -167,7 +167,7 @@ Open http://localhost:3000. This mode uses the Firebase Emulator, stores files i
 3. **Storage** — `gcloud storage buckets create gs://<PROJECT_ID>-docs --location=us-central1 --uniform-bucket-level-access`
 4. **Gemini** — create an API key in Google AI Studio and confirm the model ID (default `gemini-3.8-flash`, set with `GEMINI_MODEL`).
 5. **Secret & IAM** — store the key: `gcloud secrets create gemini-api-key` + `gcloud secrets versions add gemini-api-key --data-file=<file>`; grant the Cloud Run service account `<PROJECT_NUMBER>-compute@developer.gserviceaccount.com` the roles `secretmanager.secretAccessor`, `datastore.user`, `run.builder`, and `storage.objectAdmin` on the bucket.
-6. **Configuration** — fill the `TODO` values (`git grep -n TODO`): the web config in [src/lib/firebase.ts](src/lib/firebase.ts); copy [.env.example](.env.example) to `.env.local` and fill it; put the project ID in `.firebaserc`.
+6. **Configuration** — fill in the setup values: the web config in [src/lib/firebase.ts](src/lib/firebase.ts); copy [.env.example](.env.example) to `.env.local` and fill it; put the project ID in `.firebaserc`.
 7. **Seed & run locally against the project** — `gcloud auth application-default login`, then `npm run seed` and `npm run dev`.
 8. **Deploy** — `powershell -ExecutionPolicy Bypass -File .\scripts\deploy.ps1 -ProjectId <PROJECT_ID>` (options: `-Model`, `-Bucket`, `-Tag`, `-Vertex`).
 9. **After the first deploy** — add the `*.run.app` domain to Firebase Authentication → Settings → **Authorized domains**; check `/api/health` returns `"mock": false`; run each sample package once to warm the extraction cache.

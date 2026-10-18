@@ -1,11 +1,11 @@
 ﻿# Deploy OmniOps AI to Cloud Run (README → Setup on Google Cloud, step 8).
 # Usage (PowerShell, from the omniops-ai folder):  .\scripts\deploy.ps1 -ProjectId <PROJECT_ID>
 # Add -Tag final for the submission build; -Vertex to use Gemini on Vertex AI instead of the Developer API.
-# TODO(setup): before the first deploy, complete README → Setup on Google Cloud, steps 1–6.
+# Before the first deploy, complete README → Setup on Google Cloud, steps 1–6.
 param(
   [Parameter(Mandatory = $true)][string]$ProjectId,
   [string]$Region = "us-central1",
-  [string]$Model = "gemini-3.8-flash",   # TODO(setup): change it if the model name in AI Studio differs (or pass -Model <name>)
+  [string]$Model = "gemini-3.8-flash",   # change it if the model name in AI Studio differs (or pass -Model <name>)
   [string]$Bucket = "",   # defaults to <ProjectId>-docs; pass -Bucket <name> if you used a different name in README → Setup, step 3
   [string]$Tag = "",
   [switch]$Vertex

@@ -5,7 +5,7 @@ import { connectFirestoreEmulator, getFirestore } from 'firebase/firestore';
 // The Firebase web config is public information (any browser can download it); data security lives in the
 // Firestore Rules (firestore.rules), so it is fine to commit these values.
 //
-// TODO(setup): fill in the four values below (README → Setup on Google Cloud, steps 2 and 6).
+// Setup: these four values come from the Firebase project (README → Setup on Google Cloud, steps 2 and 6).
 //   Where: Firebase Console → ⚙️ Project settings → General → "Your apps" → the "omniops-web" web app
 //   → "SDK setup and configuration" → pick "Config" → copy apiKey, authDomain, projectId, appId.
 //   Example: apiKey: 'AIzaSy...', authDomain: 'omniops-ai-471203.firebaseapp.com', projectId: 'omniops-ai-471203', appId: '1:1234:web:abcd'
@@ -25,8 +25,8 @@ const emulatorConfig = {
   appId: 'demo-app',
 };
 
-/** false while the TODOs above are unfilled (and no emulator is used) – the UI then shows a warning. */
-export const firebaseConfigured = useEmulators || !Object.values(firebaseConfig).some((v) => v.includes('TODO'));
+/** false while any value above is empty (and no emulator is used) – the UI then shows a warning. */
+export const firebaseConfigured = useEmulators || !Object.values(firebaseConfig).some((v) => !v.trim());
 
 const app = getApps().length ? getApp() : initializeApp(useEmulators ? emulatorConfig : firebaseConfig);
 export const auth = getAuth(app);

@@ -43,7 +43,7 @@ export default function Home() {
 
         {!firebaseConfigured && (
           <p className="mx-auto mt-8 max-w-xl rounded-lg border border-red-300 bg-red-50 px-4 py-3 text-left text-sm text-red-800">
-            <b>Firebase is not configured.</b> Fill in the four TODO values in <code>src/lib/firebase.ts</code> (see
+            <b>Firebase is not configured.</b> Fill in the four config values in <code>src/lib/firebase.ts</code> (see
             README → Setup on Google Cloud, step 6), or run the local mode with <code>npm run dev:local</code>.
           </p>
         )}

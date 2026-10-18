@@ -7,7 +7,7 @@
 #   -b <bucket>  Cloud Storage bucket (default <PROJECT_ID>-docs)
 #   -t <tag>     Revision tag, e.g. -t final for the submission build
 #   -v           Use Gemini on Vertex AI instead of the Developer API
-# TODO(setup): before the first deploy, complete README → Setup on Google Cloud, steps 1–6.
+# Before the first deploy, complete README → Setup on Google Cloud, steps 1–6.
 set -euo pipefail
 
 PROJECT_ID=""; REGION="us-central1"; MODEL="gemini-3.8-flash"; BUCKET=""; TAG=""; VERTEX=0

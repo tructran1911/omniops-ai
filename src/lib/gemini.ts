@@ -6,7 +6,7 @@ import { GoogleGenAI } from '@google/genai';
  * For local dry runs ONLY, when no API key is available. Never enable it on Cloud Run.
  */
 export const isMock = () => process.env.GEMINI_MOCK === 'true';
-// TODO(setup): confirm the model name in AI Studio (README → Setup on Google Cloud, step 4). Prefer setting it through
+// Setup: confirm the model name in AI Studio (README → Setup on Google Cloud, step 4). Prefer setting it through
 // GEMINI_MODEL (.env.local and scripts/deploy.ps1 -Model); the value below is only the fallback default.
 export const modelName = () => (isMock() ? 'mock' : process.env.GEMINI_MODEL ?? 'gemini-3.8-flash');
 

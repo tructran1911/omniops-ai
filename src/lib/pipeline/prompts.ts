@@ -1,5 +1,5 @@
 // Prompts for Gemini. Tune them here after trying a change in AI Studio.
-// TODO(setup): once the Gemini key is in place, run `npm run try:pipeline -- public/samples/s3-risky` and compare with the
+// To verify a prompt change, run `npm run try:pipeline -- public/samples/s3-risky` and compare with the
 // ground truth in public/samples/manifest.json (s2 → C2,C3,C5 · s3 → C1,C6,P1 · s1 → none). If a field comes back wrong,
 // add a rule or an example for that field to the matching prompt below.
 //

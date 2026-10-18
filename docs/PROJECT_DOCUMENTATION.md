@@ -4,7 +4,7 @@
 |---|---|
 | **Track** | Future of Work & Enterprise Productivity |
 | **Live prototype** | https://omniops-408588480127.us-central1.run.app/ |
-| **Demo video** | _TODO – video link_ |
+| **Demo video** | https://youtu.be/25_88LAAfdM |
 | **Source** | This repository · setup and deployment in the [README](../README.md) |
 | **Team** | NEXT GEN — Truc Tran, Phuong Tran |
 
